@@ -1,0 +1,21 @@
+{
+	"type": "Plats exotiques",
+	"items": [
+		{
+			"name": "Ayutthaya",
+			"descr": "Nouilles en soupe aux arachides et aux citrons avec un oeuf poché",
+			"options": [
+				{"option": "poulet haché", "price": "23"},
+				{"option": "porc haché", "price": "24"}
+			]
+		},
+		{
+			"name": "Pathum thani",
+			"descr": "Nouilles en soupe de sang de porc",
+			"options": [
+				{"option": "porc", "price": "24"},
+				{"option": "boeuf", "price": "25"}
+			]
+		}
+	]
+}

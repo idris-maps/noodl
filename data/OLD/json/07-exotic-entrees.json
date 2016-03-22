@@ -1,0 +1,37 @@
+{
+	"type": "Spécialités exotiques",
+	"items": [
+		{
+			"name": "Beignets de boulettes",
+			"descr": "Sauce tamarin",
+			"options": [
+				{"option": "bouef", "price": "15"},
+				{"option": "poulet", "price": "15"},
+				{"option": "poisson", "price": "15"}
+			]
+		},
+		{
+			"name": "Salade de boulettes",
+			"sizes": [
+				{"size": "petit", "price": "12.50"},
+				{"size": "grand", "price": "22"}
+			]
+		},
+		{
+			"name": "Ayutthaya",
+			"descr": "Nouilles en soupe aux arachides et aux citrons avec un oeuf poché",
+			"options": [
+				{"option": "poulet haché", "price": "23"},
+				{"option": "porc haché", "price": "24"}
+			]
+		},
+		{
+			"name": "Pathum thani",
+			"descr": "Nouilles en soupe de sang de porc",
+			"options": [
+				{"option": "porc", "price": "24"},
+				{"option": "boeuf", "price": "25"}
+			]
+		}
+	]
+}

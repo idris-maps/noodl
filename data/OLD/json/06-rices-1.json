@@ -1,0 +1,36 @@
+{
+	"type": "Plats avec du riz",
+	"items": [
+		{
+			"name": "Poulet croustillant",
+			"descr": "Sauce aux herbes",
+			"price": "23.50"
+		},
+		{
+			"name": "Tom yum",
+			"descr": "Au lait de coco et à la citronelle",
+			"options": [
+				{"option": "poulet", "price": "21.50"},
+				{"option": "porc", "price": "22"},
+				{"option": "crevettes", "price": "24"},
+				{"option": "calamars", "price": "22.50"},
+				{"option": "tofu", "price": "20.50"}
+			]
+		},
+		{
+			"name": "Tom kha",
+			"descr": "Au lait de coco et au galanga",
+			"options": [
+				{"option": "poulet", "price": "21.50"},
+				{"option": "porc", "price": "22"},
+				{"option": "crevettes", "price": "24"},
+				{"option": "calamars", "price": "22.50"},
+				{"option": "tofu", "price": "20.50"}
+			]
+		},
+		{
+			"name": "Portion de riz blanc",
+			"price": "4"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "noodl_menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jsonfile": "^2.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+				"data": "node data/put-together",
+				"svg": "node svgs/create-svg.js",
+				"pdf": "node svgs/to-pdf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

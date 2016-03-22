@@ -1,0 +1,5 @@
+Shape: width: 20cm height: 19.5cm
+
+Font: http://www.fontsquirrel.com/fonts/chivo
+
+

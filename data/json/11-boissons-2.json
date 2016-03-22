@@ -1,0 +1,37 @@
+{
+	"type": "Boissons",
+	"items": [
+		{
+			"name": "Vin blanc",
+			"options": [
+				{"option": "Name of open wine (au verre)", "price": "5"},
+				{"option": "Name of bottle 1 (à la bouteille)", "price": "?"},
+				{"option": "Name of bottle 2 (à la bouteille)", "price": "?"}
+			]
+		},
+		{
+			"name": "Vin rouge",
+			"options": [
+				{"option": "Name of open wine (au verre)", "price": "5"},
+				{"option": "Name of bottle 1 (à la bouteille)", "price": "?"},
+				{"option": "Name of bottle 2 (à la bouteille)", "price": "?"}
+			]
+		},
+		{
+			"name": "Vin rosé",
+			"options": [
+				{"option": "Name of open wine (au verre)", "price": "5"},
+				{"option": "Name of bottle 1 (à la bouteille)", "price": "?"},
+				{"option": "Name of bottle 2 (à la bouteille)", "price": "?"}
+			]
+		},
+		{
+			"name": "Bières",
+			"options": [
+				{"option": "Singha", "price": "5"},
+				{"option": "Chang", "price": "5"},
+				{"option": "Other beer", "price": "5"}
+			]
+		}
+	]
+}

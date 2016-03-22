@@ -1,0 +1,27 @@
+{
+	"type": "Desserts",
+	"items": [
+		{
+			"name": "Mangue fraîche et riz gluant",
+			"price": "12"
+		},
+		{
+			"name": "Raviolis à la banane et au miel",
+			"price": "12"
+		},
+		{
+			"name": "Beignets de banane et lait condensé",
+			"price": "12"
+		},
+		{
+			"name": "Crème glacée",
+			"descr": "Prix par boule",
+			"options": [
+				{"option": "coco", "price": "4"},
+				{"option": "chocolat", "price": "4"},
+				{"option": "gingembre", "price": "4"},
+				{"option": "litchi", "price": "4"}
+			]
+		}
+	]
+}

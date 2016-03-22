@@ -1,0 +1,34 @@
+{
+	"type": "Boissons",
+	"items": [
+		{
+			"name": "Eaux",
+			"options": [
+				{"option": "Gazeuse", "price": "?"},
+				{"option": "Plate", "price": "?"}
+			]
+		},
+		{
+			"name": "Sodas",
+			"options": [
+				{"option": "Coca-cola", "price": "?"},
+				{"option": "Soda 2", "price": "?"},
+				{"option": "Soda 3", "price": "?"}
+			]
+		},
+		{
+			"name": "Cafés",
+			"options": [
+				{"option": "Expresso", "price": "?"},
+				{"option": "Normal", "price": "?"}
+			]
+		},
+		{
+			"name": "Thés",
+			"options": [
+				{"option": "Thé 1", "price": "?"},
+				{"option": "Thé 2", "price": "?"}
+			]
+		}
+	]
+}

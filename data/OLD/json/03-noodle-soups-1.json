@@ -1,0 +1,44 @@
+{
+	"type": "Nouilles en soupe",
+	"items": [
+		{
+			"name": "Curry vert",
+			"options": [
+				{"option": "poulet", "price": "21.50"},
+				{"option": "porc", "price": "22"},
+				{"option": "boeuf", "price": "25"},
+				{"option": "crevettes", "price": "24"},
+				{"option": "calamars", "price": "22.50"},
+				{"option": "tofu", "price": "20.50"}
+			]
+		},
+		{
+			"name": "Curry rouge",
+			"options": [
+				{"option": "poulet", "price": "21.50"},
+				{"option": "porc", "price": "22"},
+				{"option": "boeuf", "price": "25"},
+				{"option": "crevettes", "price": "24"},
+				{"option": "calamars", "price": "22.50"},
+				{"option": "tofu", "price": "20.50"}
+			]
+		},
+		{
+			"name": "Curry jaune",
+			"options": [
+				{"option": "poulet", "price": "21.50"},
+				{"option": "boeuf", "price": "25"},
+				{"option": "tofu", "price": "20.50"}
+			]
+		},
+		{
+			"name": "Chang Maï",
+			"descr": "spécialité du Nord de la Thaïlande",
+			"options": [
+				{"option": "poulet", "price": "21.50"},
+				{"option": "boeuf", "price": "25"},
+				{"option": "tofu", "price": "20.50"}
+			]
+		}
+	]
+}

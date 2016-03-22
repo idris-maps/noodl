@@ -1,0 +1,47 @@
+{
+	"type": "Salades",
+	"items": [
+		{
+			"name": "Salade mixte",
+			"descr": "aux herbes thaïs et aux arachides",
+			"options": [
+				{
+					"option": "poulet - citronelle",
+					"sizes": [
+						{"size": "petite", "price": "12.50"},
+						{"size": "grande", "price": "22"}
+					]
+				},
+				{
+					"option": "boeuf - citronelle",
+					"sizes": [
+						{"size": "petite", "price": "14.50"},
+						{"size": "grande", "price": "25"}
+					]
+				},
+				{
+					"option": "crevettes - citronelle",
+					"sizes": [
+						{"size": "petite", "price": "13.50"},
+						{"size": "grande", "price": "24"}
+					]
+				},
+				{
+					"option": "calamars",
+					"sizes": [
+						{"size": "petite", "price": "13.50"},
+						{"size": "grande", "price": "24"}
+					]
+				}
+			]
+		},
+		{
+			"name": "Salade de vermicelles",
+			"descr": "Épicé",
+			"sizes": [
+				{"size": "petite", "price": "15"},
+				{"size": "grande", "price": "27"}
+			]
+		}
+	]
+}

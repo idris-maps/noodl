@@ -1,0 +1,59 @@
+{
+		"type": "Entrées",
+		"items": [
+			{
+				"name": "Satay fait maison",
+				"options": [
+					{ 
+						"option": "boeuf", 
+						"sizes": [
+							{"size": "petit", "price": "13.50"},
+							{"size": "grand", "price": "24"}
+						]
+					},
+					{ 
+						"option": "porc", 
+						"sizes": [
+							{"size": "petit", "price": "12.50"},
+							{"size": "grand", "price": "23"}
+						]
+					},
+					{ 
+						"option": "poulet", 
+						"sizes": [
+							{"size": "petit", "price": "12.50"},
+							{"size": "grand", "price": "23"}
+						]
+					},
+					{ 
+						"option": "crevettes", 
+						"sizes": [
+							{"size": "petit", "price": "13.50"},
+							{"size": "grand", "price": "24"}
+						]
+					}
+				]
+			},
+			{
+				"name": "Rouleaux de printemps",
+				"options": [
+					{"option": "poulet fait maison", "price": "13"},
+					{"option": "crevettes", "price": "13"},
+					{"option": "légumes", "price": "12.50"}
+				]
+			},
+			{
+				"name": "Tofu au tamarin et aux arachides",
+				"price": "12.50"
+			},
+			{
+				"name": "Assortiment d'entrées",
+				"descr": "Rouleux de printemps crevettes et légumes et ravilois crevettes et légumes",
+				"sizes": [
+					{"size": "8 pièces", "price": "8"},
+					{"size": "16 pièces", "price": "16"}
+				]
+			}
+		]
+}
+
