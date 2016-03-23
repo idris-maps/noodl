@@ -14,7 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
 				"data": "node data/put-together",
 				"svg": "node svgs/create-svg.js",
-				"pdf": "node svgs/to-pdf.js"
+				"pdf": "node svgs/to-pdf.js",
+				"fsvg": "node flyer/create-svg.js",
+				"fpdf": "node flyer/to-pdf.js"
   },
   "author": "",
   "license": "ISC"

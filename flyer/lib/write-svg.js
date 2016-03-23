@@ -10,11 +10,11 @@ module.exports = function(w,h,name,inner) {
 }
 
 function writeSVG(name, svg) {
-	fs.writeFile('svgs/svg/' + name + '.svg', svg, 'utf-8', function() { console.log('wrote ' + name + '.svg') })
+	fs.writeFile('flyer/svg/' + name + '.svg', svg, 'utf-8', function() { console.log('wrote ' + name + '.svg') })
 }
 
 function writeHTML(name, html) {
-	fs.writeFile('svgs/html/' + name + '.html', html, 'utf-8', function() { console.log('wrote ' + name + '.html') })
+	fs.writeFile('flyer/html/' + name + '.html', html, 'utf-8', function() { console.log('wrote ' + name + '.html') })
 }
 
 function html(w,h,inner) {
