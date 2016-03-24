@@ -1,5 +1,5 @@
-Shape: width: 20cm height: 19.5cm
+Shape menu: width: 20cm height: 19.5cm
+Shape take away flyer: A4
 
 Font: http://www.fontsquirrel.com/fonts/chivo
-
-
+Color: rgb(54,21,44)
