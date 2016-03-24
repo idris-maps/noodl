@@ -1,5 +1,6 @@
 var bg = require('../bg')
 var write = require('../write-svg')
+var icon = require('../icon')
 var lineBreak = 1.5
 
 module.exports = function(n, conf, data, even, marginTop) {
@@ -22,6 +23,10 @@ function menu(conf, data, marginTop, callback) {
 	var tY = 250
 	var wC = conf.w / 2
 	var str = '<text x="' + wC + '" y="' + tY + '" style="' + sT + '">' + data.type + '</text>'
+	if(data.typeDescr !== undefined) {
+		tY = tY + conf.font.typeDescr.s * lineBreak
+		str = str + '<text x="' + wC + '" y="' + tY + '" style="' + style('typeDescr', conf) + ';text-anchor:middle">' + data.typeDescr + '</text>'
+	}
 	var lastY = tY + marginTop
 	plates(conf, data.items, lastY, function(lastY, menuStr) {
 		str = str + menuStr
@@ -55,6 +60,10 @@ function onePlate(item, x, lastY, str, conf) {
 	var nameY = lastY
 	var pX = conf.w - x
 	str = str + '<text x="' + x + '" y="' + lastY + '" style="' + nameStyle + '">' + item.name + '</text>'
+
+	if(item.info !== undefined) {
+		str = str + icon(item.info, x-100, nameY-50, 0.4)
+	}
 
 	if(item.price !== undefined) {
 		var priceStyle = style('price', conf)

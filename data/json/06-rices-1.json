@@ -8,10 +8,10 @@
 		},
 		{
 			"name": "Tom yum",
+			"info": "spicy",
 			"descr": "Au lait de coco et à la citronelle",
 			"options": [
 				{"option": "poulet", "price": "21.50"},
-				{"option": "porc", "price": "22"},
 				{"option": "crevettes", "price": "24"},
 				{"option": "calamars", "price": "22.50"},
 				{"option": "tofu", "price": "20.50"}
@@ -22,15 +22,10 @@
 			"descr": "Au lait de coco et au galanga",
 			"options": [
 				{"option": "poulet", "price": "21.50"},
-				{"option": "porc", "price": "22"},
 				{"option": "crevettes", "price": "24"},
 				{"option": "calamars", "price": "22.50"},
 				{"option": "tofu", "price": "20.50"}
 			]
-		},
-		{
-			"name": "Portion de riz blanc",
-			"price": "4"
 		}
 	]
 }

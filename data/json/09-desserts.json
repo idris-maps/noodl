@@ -14,6 +14,10 @@
 			"price": "12"
 		},
 		{
+			"name": "Beignet de glace à la noix de coco",
+			"price": "12"
+		},
+		{
 			"name": "Crème glacée",
 			"descr": "Prix par boule",
 			"options": [

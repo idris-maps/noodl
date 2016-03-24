@@ -24,21 +24,8 @@
 			]
 		},
 		{
-			"name": "Curry jaune",
-			"options": [
-				{"option": "poulet", "price": "21.50"},
-				{"option": "boeuf", "price": "25"},
-				{"option": "tofu", "price": "20.50"}
-			]
-		},
-		{
-			"name": "Chang Maï",
-			"descr": "Spécialité du Nord de la Thaïlande",
-			"options": [
-				{"option": "poulet", "price": "21.50"},
-				{"option": "boeuf", "price": "25"},
-				{"option": "tofu", "price": "20.50"}
-			]
+			"name": "Portion de riz blanc",
+			"price": "4"
 		}
 	]
 }

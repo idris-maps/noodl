@@ -1,5 +1,6 @@
 var bg = require('../bg')
 var write = require('../write-svg')
+var icon = require('../icon')
 
 module.exports = function(conf, data) {
 	var inner = bg.odd(conf.w, conf.h) + intro(conf, data)
@@ -8,16 +9,17 @@ module.exports = function(conf, data) {
 
 function intro(conf, data) {
 	var f = conf.font.intro
-	var msgX = 1410
-	var msgX2 = msgX + f.s
+	var spX = conf.w/2 - 300
 	var g = '<g id="text" '
 	+ 'style="font-family:' + f.fam + ';font-size:' + f.s + ';" '
 	+ 'transform="translate(0, 200)" >'
-		+ text(data.part1, conf.w/2, 300, f.s, f.c)
-		+ text(data.part2, conf.w/2, 720, f.s, f.c)
-		+ text(data.part3, conf.w/2, 1000, f.s, f.c)
-		+ '<text x="' + conf.w/2 + '" y="' + msgX + '" text-anchor="middle" fill="' + f.c + '">' + data.msg1 + '</text>'
-		+ '<text x="' + conf.w/2 + '" y="' + msgX2 + '" text-anchor="middle" fill="' + f.c + '">' + data.msg2 + '</text>'
+		+ text(data.part1, conf.w/2, 250, f.s, f.c)
+		+ text(data.part2, conf.w/2, 670, f.s, f.c)
+		+ text(data.part3, conf.w/2, 970, f.s, f.c)
+		+ icon('spicy', spX-150, 1440, 0.5)
+		+ '<text x="' + spX + '" y="1500" fill="' + f.c + '" font-weight="bold">Plat épicé</text>'
+		+ icon('peanuts', spX-150, 1540, 0.5)
+		+ '<text x="' + spX + '" y="1600" fill="' + f.c + '" font-weight="bold">Plat contenant des arachides</text>'
 	+ '</g>'
 
 	return g

@@ -13,10 +13,10 @@ var conf = {
 		title: { fam: 'chivo', s: 70, c: 'rgb(54,21,44)' },
 		intro: { fam: 'chivo', s: 40, c: 'rgb(54,21,44)' },
 		name: { fam: 'chivo', s: 30, w: 'bold', c: 'rgb(54,21,44)' },
-		price: { fam: 'chivo', s: 20, w: 'none', c: 'rgb(54,21,44)' },
-		option: { fam: 'chivo', s: 20, w: 'none', c: 'rgb(54,21,44)' },
-		descr: { fam: 'chivo', s: 20, w: 'italic', c: 'rgb(54,21,44)' },
-		adr: { fam: 'chivo', s: 70, w: 'bold', c: 'rgb(54,21,44)' }
+		price: { fam: 'chivo', s: 30, w: 'none', c: 'rgb(54,21,44)' },
+		option: { fam: 'chivo', s: 30, w: 'none', c: 'rgb(54,21,44)' },
+		descr: { fam: 'chivo', s: 25, w: 'italic', c: 'rgb(54,21,44)' },
+		adr: { fam: 'chivo', s: 50, w: 'none', c: 'rgb(54,21,44)' }
 	},
 	data: {
 		logo: logo,

@@ -1,4 +1,6 @@
 var lineBreak = 1.5
+var icon = require('./icon')
+
 
 module.exports = function(data,x,y,conf,marginTop,callback) {
 	menu(conf, data, 0, marginTop, function(str) {
@@ -45,6 +47,10 @@ function onePlate(item, x, lastY, str, conf) {
 	var nameY = lastY
 	var pX = conf.colW - conf.colM*2
 	str = str + '<text x="' + x + '" y="' + lastY + '" style="' + nameStyle + '">' + item.name + '</text>'
+
+	if(item.info !== undefined) {
+		str = str + icon(item.info, x-70, nameY-35, 0.3)
+	}
 
 	if(item.price !== undefined) {
 		var priceStyle = style('price', conf)

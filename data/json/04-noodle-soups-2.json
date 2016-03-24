@@ -1,12 +1,13 @@
 {
 	"type": "Nouilles en soupe",
+	"typeDescr": "(Nouilles de riz sans gluten)",
 	"items": [
 		{
 			"name": "Tom yum",
+			"info": "spicy",
 			"descr": "Au lait de coco et à la citronelle",
 			"options": [
 				{"option": "poulet", "price": "21.50"},
-				{"option": "porc", "price": "22"},
 				{"option": "crevettes", "price": "24"},
 				{"option": "calamars", "price": "22.50"},
 				{"option": "tofu", "price": "20.50"}
@@ -17,14 +18,13 @@
 			"descr": "Au lait de coco et au galanga",
 			"options": [
 				{"option": "poulet", "price": "21.50"},
-				{"option": "porc", "price": "22"},
 				{"option": "crevettes", "price": "24"},
 				{"option": "calamars", "price": "22.50"},
 				{"option": "tofu", "price": "20.50"}
 			]
 		},
 		{
-			"name": "Suphan",
+			"name": "Sukhothai",
 			"descr": "Soupe claire aux herbes (idéale pour les régimes)",
 			"options": [
 				{"option": "poulet", "price": "21.50"},

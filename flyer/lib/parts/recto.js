@@ -3,6 +3,7 @@ var write = require('../write-svg')
 var logo = require('../logo')
 var intro = require('../../../data/intro/intro.json')
 var adr = require('../../../data/adr/adr.json')
+var open = require('../../../data/open/open.json')
 var map = require('../../../data/map/map.json').uri
 var textFlow = require('../text-flow')
 var menuPage = require('../menu-page')
@@ -39,17 +40,19 @@ function col(colI, colW, colM, conf, callback) {
 
 function col3(x,w,conf) {
 	var s = style('adr', conf)
-	var Y = 2000
-	var M = 100
-	var Y1 = Y+M
-	var Y2 = Y+M*3
-	var Y3 = Y+M*4
+	var y = 1800
+	var M = 60
 	var X = conf.colW/2 - conf.colM
-	var str = '<text x="' + X + '" y="' + Y + '" style="' + s + ';text-anchor:middle">' + adr.street + '</text>'
-	+ '<text x="' + X + '" y="' + Y1 + '" style="' + s + ';text-anchor:middle">' + adr.town + '</text>'
-	+ '<text x="' + X + '" y="' + Y2 + '" style="' + s + ';text-anchor:middle">' + adr.tel + '</text>'
-	+ '<text x="' + X + '" y="' + Y3 + '" style="' + s + ';text-anchor:middle">' + adr.www + '</text>'
+	var str = '<text x="' + X + '" y="' + y + '" style="' + s + ';text-anchor:middle">' + adr.street + '</text>'
+	+ '<text x="' + X + '" y="' + getY(1) + '" style="' + s + ';text-anchor:middle">' + adr.town + '</text>'
+	+ '<text x="' + X + '" y="' + getY(3) + '" style="' + s + ';text-anchor:middle">' + adr.tel + '</text>'
+	+ '<text x="' + X + '" y="' + getY(4) + '" style="' + s + ';text-anchor:middle">' + adr.www + '</text>'
+	+ '<text x="' + X + '" y="' + getY(6) + '" style="' + s + ';text-anchor:middle">' + open.title + '</text>'
+	+ '<text x="' + X + '" y="' + getY(7) + '" style="' + s + ';text-anchor:middle">' + open.days + '</text>'
+	+ '<text x="' + X + '" y="' + getY(8) + '" style="' + s + ';text-anchor:middle">' + open.lunch + '</text>'
+	+ '<text x="' + X + '" y="' + getY(9) + '" style="' + s + ';text-anchor:middle">' + open.dinner + '</text>'
 	return str + logo(conf.data.logo, conf.c, 'translate(-35,350) scale(2)')
+	function getY(n) { return y + M * n }
 }
 
 function col2(x,w,conf) {
@@ -64,10 +67,8 @@ function col2(x,w,conf) {
 }
 
 function col1(x,y,conf, callback) {
-	menuPage(boissons(conf.data.menu),x,y,conf,700, function(str0) {
-		menuPage(conf.data.menu[8],x,y,conf,0, function(str1) {
-			callback(str0 + str1)
-		})
+	menuPage(boissons(conf.data.menu),x,y,conf,200, function(str0) {
+		callback(str0)
 	})
 }
 

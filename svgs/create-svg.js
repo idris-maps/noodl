@@ -19,7 +19,9 @@ var conf = {
 		name: { fam: 'chivo', s: 60, w: 'bold', c: 'rgb(54,21,44)' },
 		price: { fam: 'chivo', s: 40, w: 'none', c: 'rgb(54,21,44)' },
 		option: { fam: 'chivo', s: 40, w: 'none', c: 'rgb(54,21,44)' },
-		descr: { fam: 'chivo', s: 30, w: 'italic', c: 'rgb(54,21,44)' }
+		descr: { fam: 'chivo', s: 30, w: 'italic', c: 'rgb(54,21,44)' },
+		typeDescr: { fam: 'chivo', s: 40, c: 'rgb(54,21,44)' },
+		open: { fam: 'chivo', s: 40, w: 'none', c: 'rgb(54,21,44)'}
 	}
 }
 
@@ -31,11 +33,14 @@ var intro = require('./lib/parts/intro')
 intro(conf, introTxt)
 
 var menuPage = require('./lib/parts/menu-page')
-var marginTop = [250,430,30,100,250,200,30,250,350,200,200]
+var marginTop = [250,500,30,100,250,250,200,300,300,250]
 data.forEach(function(d, i) {
 	var fileName = i + 2
 	menuPage(fileName, conf, d, isEven(i), marginTop[i])
 })
+
+var fillPage = require('./lib/parts/fill-page')
+fillPage(conf, '12', true)
 
 function isEven(n) {
 	return n == parseFloat(n)? !(n%2) : void 0;

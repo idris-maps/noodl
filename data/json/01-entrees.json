@@ -3,6 +3,7 @@
 		"items": [
 			{
 				"name": "Satay fait maison",
+				"info": "peanuts",
 				"options": [
 					{ 
 						"option": "boeuf", 
@@ -44,14 +45,18 @@
 			},
 			{
 				"name": "Tofu au tamarin et aux arachides",
-				"price": "12.50"
+				"info": "peanuts",
+				"sizes": [
+					{"size": "petit", "price": "10"},
+					{"size": "grand", "price": "15"}
+				]
 			},
 			{
 				"name": "Assortiment d'entrées",
 				"descr": "Rouleux de printemps crevettes et légumes et raviolis crevettes et légumes",
 				"sizes": [
-					{"size": "8 pièces", "price": "8"},
-					{"size": "16 pièces", "price": "16"}
+					{"size": "petit", "price": "14"},
+					{"size": "grand", "price": "26.50"}
 				]
 			}
 		]

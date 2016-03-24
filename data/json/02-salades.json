@@ -3,7 +3,8 @@
 	"items": [
 		{
 			"name": "Salade mixte",
-			"descr": "aux herbes thaïs et aux arachides",
+			"descr": "Sauce aux herbes thaïs et aux arachides",
+			"info": "peanuts",
 			"options": [
 				{
 					"option": "poulet - citronelle",
@@ -37,7 +38,7 @@
 		},
 		{
 			"name": "Salade de vermicelles",
-			"descr": "Épicé",
+			"info": "spicy",
 			"sizes": [
 				{"size": "petite", "price": "15"},
 				{"size": "grande", "price": "27"}

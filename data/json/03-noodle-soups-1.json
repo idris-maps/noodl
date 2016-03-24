@@ -1,5 +1,6 @@
 {
 	"type": "Nouilles en soupe",
+	"typeDescr": "(Nouilles de riz sans gluten)",
 	"items": [
 		{
 			"name": "Curry vert",
@@ -25,6 +26,7 @@
 		},
 		{
 			"name": "Curry jaune",
+			"info": "spicy",
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "boeuf", "price": "25"},
