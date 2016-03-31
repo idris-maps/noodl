@@ -18,7 +18,7 @@ $ cd svgs/pdf
 $ pdfunite 00.pdf 01.pdf 02.pdf 03.pdf 04.pdf 05.pdf 06.pdf 07.pdf 08.pdf 09.pdf 10.pdf 11.pdf 12.pdf 13.pdf noodl.pdf
 ```
 
-The PDF file: ```flyer/pdf/noodl.pdf```
+The PDF file: ```svgs/pdf/noodl.pdf```
 
 ### Generate take away menu
 
