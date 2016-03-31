@@ -43,6 +43,14 @@ $ npm run webdata
 $ npm run site
 ```
 
+Files to transfer to the server:
+
+* index.html
+* fr.html
+* en.html
+
+Images, styling and scripts are included in the HTML files 
+
 ## Dependencies
 
 * node
