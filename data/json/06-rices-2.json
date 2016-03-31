@@ -3,6 +3,8 @@
 	"items": [
 		{
 			"name": "Curry vert",
+			"inId": "2.0",
+			"info": {"n": "spicy", "x": -90},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},
@@ -14,6 +16,8 @@
 		},
 		{
 			"name": "Curry rouge",
+			"inId": "2.1",
+			"info": {"n": "spicy", "x": -40},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},

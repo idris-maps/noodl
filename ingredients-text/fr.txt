@@ -1,0 +1,293 @@
+
+---Entrées---
+
+	 ** Satay fait maison
+			-coriandre
+			-citronelle
+			-échalote
+			-aïl
+			-piment
+			-poudre de curcuma
+			-sauce soja
+			-sauce d'huitre
+			-bambou
+			-concombre
+			-oignon
+
+	 ** Rouleaux de printemps
+			-germes de haricots
+			-nouilles
+			-oignon vert
+			-coriandre
+			-carotte
+			-poudre de piment thaï
+			-aïl
+			-huile
+			-sauce soja
+			-sucre
+
+	 ** Tofu au tamarin et aux arachides
+			-tamarin
+			-piment
+			-arachides
+			-oignons
+			-sésame
+			-sucre
+			-sel
+
+	 ** Assortiment d'entrées
+
+---Salades---
+
+	 ** Salade mêlée
+			-piment
+			-tamarin
+			-sauce de poisson
+			-sel
+			-aïl
+			-citron
+			-arachides
+			-oignon
+			-citronelle
+			-sauce de poisson
+			-feuilles de kafir
+
+	 ** Salade de vermicelles
+			-nouilles
+			-porc
+			-crevettes
+			-légumes
+			-vinaigrette épicée au citron vert
+
+---Nouilles en soupe---
+
+	 ** Curry vert
+			-huile
+			-pâte de curry vert
+			-lait de coco
+			-eau
+			-pousses de bambou
+			-feuilles de kafir
+			-piment
+			-sauce de poisson
+			-sucre
+			-basilic
+
+	 ** Curry rouge
+			-lait de coco
+			-pâte de curry rouge
+			-sauce de poisson
+			-huile
+			-champignons shiitake
+			-gingembre
+			-aïl
+			-eau
+			-coriandre
+
+	 ** Curry jaune
+			-lait de coco
+			-pâte de curry jaune
+			-eau
+			-pommes de terre
+			-oignon
+			-maïs miniature
+			-sauce de poisson
+			-sucre
+
+	 ** Chang Maï
+			-piment
+			-échalote
+			-aïl
+			-gingembre
+			-coriandre
+			-curcuma
+			-poudre de curry
+
+	 ** Tom yum
+			-eau
+			-citronnelle
+			-galanga
+			-feuilles de kafir
+			-piment
+			-aïl
+			-pleurote
+			-tomates
+			-oignon
+			-sucre
+			-sauce de poisson
+			-jus de citron vert
+			-coriandre
+
+	 ** Tom kha
+			-bouillon de légumes
+			-tige de citronelle
+			-champignons de Paris
+			-carottes
+			-piment
+			-aïl
+			-tomates
+			-poivron
+			-broccoli
+			-lait de coco
+			-sauce soja
+			-coriandre
+			-citron vert
+			-sauce au piment
+
+	 ** Sukhothai
+			-radis blanc
+			-carottes
+			-aïl
+			-sel
+			-poivre
+			-sucre
+			-sauce de poisson
+
+---Nouilles---
+
+	 ** Pad thaï
+			-nouilles de riz
+			-germes d'haricots
+			-ciboullette
+			-huile
+			-pâte de tamarin
+			-échalotes
+			-navets
+			-citron vert
+			-arachides
+			-piment
+			-aïl
+			-sauce de poisson
+			-oeuf
+
+	 ** Pattaya
+			-nouilles de riz
+			-germes d'haricots
+			-ciboullette
+			-huile
+			-pâte de tamarin
+			-échalotes
+			-navets
+			-citron vert
+			-arachides
+			-piment
+			-aïl
+			-sauce de poisson
+
+---Plats avec du riz---
+
+	 ** Poulet croustillant
+			-oeuf
+			-sel
+			-poivre
+			-huile
+			-amidon de maïs
+			-farine
+			-gingembre
+			-aïl
+			-piment
+			-oignon
+			-vin de riz
+			-eau
+			-huile de sésame
+			-sauce soja
+			-sucre
+			-vinaigre
+			-zest d'orange
+
+	 ** Tom yum
+			-eau
+			-citronnelle
+			-galanga
+			-feuilles de kafir
+			-piment
+			-aïl
+			-pleurote
+			-tomates
+			-oignon
+			-sucre
+			-sauce de poisson
+			-jus de citron vert
+			-coriandre
+
+	 ** Tom kha
+			-bouillon de légumes
+			-tige de citronelle
+			-champignons de Paris
+			-carottes
+			-piment
+			-aïl
+			-tomates
+			-poivron
+			-broccoli
+			-lait de coco
+			-sauce soja
+			-coriandre
+			-citron vert
+			-sauce au piment
+
+	 ** Curry vert
+			-huile
+			-pâte de curry vert
+			-lait de coco
+			-eau
+			-pousses de bambou
+			-feuilles de kafir
+			-piment
+			-sauce de poisson
+			-sucre
+			-basilic
+
+	 ** Curry rouge
+			-lait de coco
+			-pâte de curry rouge
+			-sauce de poisson
+			-huile
+			-champignons shiitake
+			-gingembre
+			-aïl
+			-eau
+			-coriandre
+
+	 ** Portion de riz blanc
+
+---Desserts---
+
+	 ** Mangue fraîche et riz gluant
+			-riz
+			-mangue
+			-sucre
+			-lait de coco
+			-sel
+
+	 ** Raviolis à la banane et au miel
+			-banane
+			-pâte won ton
+			-miel
+			-sucre
+
+	 ** Beignets de banane et lait condensé
+
+	 ** Beignet de glace à la noix de coco
+			-crème glacée
+			-farine
+
+	 ** Crème glacée
+
+---Boissons---
+
+	 ** Eaux
+
+	 ** Sodas
+
+	 ** Cafés
+
+	 ** Thés
+
+	 ** Vin blanc
+
+	 ** Vin rouge
+
+	 ** Vin rosé
+
+	 ** Bières

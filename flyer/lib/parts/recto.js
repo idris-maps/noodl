@@ -4,6 +4,7 @@ var logo = require('../logo')
 var intro = require('../../../data/intro/intro.json')
 var adr = require('../../../data/adr/adr.json')
 var open = require('../../../data/open/open.json')
+var last = require('../../../data/last/last.json')
 var map = require('../../../data/map/map.json').uri
 var textFlow = require('../text-flow')
 var menuPage = require('../menu-page')
@@ -40,17 +41,22 @@ function col(colI, colW, colM, conf, callback) {
 
 function col3(x,w,conf) {
 	var s = style('adr', conf)
-	var y = 1800
+	var s2 = 'font-family:chivo;font-size:30;fill:rgb(54,21,44);text-anchor:middle'
+	var s3 = 'font-family:chivo;font-size:50;font-weight:bold;fill:rgb(54,21,44);text-anchor:middle'
+	var y = 1600
 	var M = 60
 	var X = conf.colW/2 - conf.colM
 	var str = '<text x="' + X + '" y="' + y + '" style="' + s + ';text-anchor:middle">' + adr.street + '</text>'
 	+ '<text x="' + X + '" y="' + getY(1) + '" style="' + s + ';text-anchor:middle">' + adr.town + '</text>'
 	+ '<text x="' + X + '" y="' + getY(3) + '" style="' + s + ';text-anchor:middle">' + adr.tel + '</text>'
-	+ '<text x="' + X + '" y="' + getY(4) + '" style="' + s + ';text-anchor:middle">' + adr.www + '</text>'
 	+ '<text x="' + X + '" y="' + getY(6) + '" style="' + s + ';text-anchor:middle">' + open.title + '</text>'
 	+ '<text x="' + X + '" y="' + getY(7) + '" style="' + s + ';text-anchor:middle">' + open.days + '</text>'
 	+ '<text x="' + X + '" y="' + getY(8) + '" style="' + s + ';text-anchor:middle">' + open.lunch + '</text>'
 	+ '<text x="' + X + '" y="' + getY(9) + '" style="' + s + ';text-anchor:middle">' + open.dinner + '</text>'
+	+ '<text x="' + X + '" y="' + getY(11.2) + '" style="' + s2 + '">' + last.site.fr + '</text>'
+	+ '<text x="' + X + '" y="' + getY(12) + '" style="' + s2 + '">' + last.site.en + '</text>'
+	+ '<text x="' + X + '" y="' + getY(13.5) + '" style="' + s3 + '">' + last.site.www + '</text>'
+
 	return str + logo(conf.data.logo, conf.c, 'translate(-35,350) scale(2)')
 	function getY(n) { return y + M * n }
 }

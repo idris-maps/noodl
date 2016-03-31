@@ -2,9 +2,10 @@
 	"type": "Salades",
 	"items": [
 		{
-			"name": "Salade mixte",
+			"name": "Salade mêlée",
+			"inId": "1.0",
 			"descr": "Sauce aux herbes thaïs et aux arachides",
-			"info": "peanuts",
+				"info": {"n":"peanuts", "x":0},
 			"options": [
 				{
 					"option": "poulet - citronelle",
@@ -28,7 +29,7 @@
 					]
 				},
 				{
-					"option": "calamars",
+					"option": "calamars - citronelle",
 					"sizes": [
 						{"size": "petite", "price": "13.50"},
 						{"size": "grande", "price": "24"}
@@ -38,7 +39,8 @@
 		},
 		{
 			"name": "Salade de vermicelles",
-			"info": "spicy",
+			"inId": "1.1",
+			"info": {"n":"spicy", "x":250, "x2":150},
 			"sizes": [
 				{"size": "petite", "price": "15"},
 				{"size": "grande", "price": "27"}

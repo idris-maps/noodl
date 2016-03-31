@@ -3,12 +3,14 @@
 	"items": [
 		{
 			"name": "Poulet croustillant",
+			"inId": "2.9",
 			"descr": "Sauce aux herbes",
 			"price": "23.50"
 		},
 		{
 			"name": "Tom yum",
-			"info": "spicy",
+			"inId": "2.4",
+			"info": {"n": "spicy", "x": -100},
 			"descr": "Au lait de coco et à la citronelle",
 			"options": [
 				{"option": "poulet", "price": "21.50"},
@@ -19,6 +21,7 @@
 		},
 		{
 			"name": "Tom kha",
+			"inId": "2.5",
 			"descr": "Au lait de coco et au galanga",
 			"options": [
 				{"option": "poulet", "price": "21.50"},

@@ -1,5 +1,6 @@
 var bg = require('../bg')
 var write = require('../write-svg')
+var alerg = require('../../../data/allerg/allerg.json')
 var icon = require('../icon')
 var lineBreak = 1.5
 
@@ -62,7 +63,14 @@ function onePlate(item, x, lastY, str, conf) {
 	str = str + '<text x="' + x + '" y="' + lastY + '" style="' + nameStyle + '">' + item.name + '</text>'
 
 	if(item.info !== undefined) {
-		str = str + icon(item.info, x-100, nameY-50, 0.4)
+
+		if(item.info.n === 'peanuts') {
+			str = str + icon('peanuts', x+400+item.info.x ,nameY-50, 0.4)
+		} else if(item.info.n === 'spicy') {
+			str = str + icon(item.info.n, x+400+item.info.x, nameY-50, 0.4)
+		} else {
+			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.4) + icon('peanuts', x+470+item.info.x, nameY-50, 0.4)
+		}
 	}
 
 	if(item.price !== undefined) {
@@ -129,6 +137,10 @@ function onePlate(item, x, lastY, str, conf) {
 			}
 		})
 	}
+
+	str = str 
+		+ '<text x="1300" y="2100" style="font-family:chivo;font-size:30px;text-anchor:middle;fill:rgb(54,21,44)">' + alerg.txt1 + '</text>'
+		+ '<text x="1300" y="2130" style="font-family:chivo;font-size:30px;text-anchor:middle;fill:rgb(54,21,44)">' + alerg.txt2 + '</text>'
 
 	return {
 		lastY: lastY,

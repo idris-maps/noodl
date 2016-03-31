@@ -4,30 +4,31 @@
 		{
 			"name": "Eaux",
 			"options": [
-				{"option": "Gazeuse", "price": "?"},
-				{"option": "Plate", "price": "?"}
+				{"option": "Gazeuse", "price": "4"},
+				{"option": "Plate", "price": "4"}
 			]
 		},
 		{
 			"name": "Sodas",
 			"options": [
-				{"option": "Coca-cola", "price": "?"},
-				{"option": "Soda 2", "price": "?"},
-				{"option": "Soda 3", "price": "?"}
+				{"option": "Coca-cola", "price": "4"},
+				{"option": "Coca-cola zero", "price": "4"},
+				{"option": "Thé froid", "price": "4"},
+				{"option": "Jus de pomme", "price": "4"}
 			]
 		},
 		{
 			"name": "Cafés",
 			"options": [
-				{"option": "Expresso", "price": "?"},
-				{"option": "Normal", "price": "?"}
+				{"option": "Expresso", "price": "3.50"},
+				{"option": "Normal", "price": "3.50"}
 			]
 		},
 		{
 			"name": "Thés",
 			"options": [
-				{"option": "Thé 1", "price": "?"},
-				{"option": "Thé 2", "price": "?"}
+				{"option": "Thé vert", "price": "3.50"},
+				{"option": "Thé jasmin", "price": "3.50"}
 			]
 		}
 	]

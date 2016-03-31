@@ -3,13 +3,14 @@
 		"items": [
 			{
 				"name": "Satay fait maison",
-				"info": "peanuts",
+				"inId": "0.0",
+				"info": {"n":"peanuts", "x":100, "x2": 50},
 				"options": [
 					{ 
-						"option": "boeuf", 
+						"option": "poulet", 
 						"sizes": [
-							{"size": "petit", "price": "13.50"},
-							{"size": "grand", "price": "24"}
+							{"size": "petit", "price": "12.50"},
+							{"size": "grand", "price": "23"}
 						]
 					},
 					{ 
@@ -20,10 +21,10 @@
 						]
 					},
 					{ 
-						"option": "poulet", 
+						"option": "boeuf", 
 						"sizes": [
-							{"size": "petit", "price": "12.50"},
-							{"size": "grand", "price": "23"}
+							{"size": "petit", "price": "13.50"},
+							{"size": "grand", "price": "24"}
 						]
 					},
 					{ 
@@ -37,6 +38,7 @@
 			},
 			{
 				"name": "Rouleaux de printemps",
+				"inId": "0.1",
 				"options": [
 					{"option": "poulet fait maison", "price": "13"},
 					{"option": "crevettes", "price": "13"},
@@ -45,7 +47,8 @@
 			},
 			{
 				"name": "Tofu au tamarin et aux arachides",
-				"info": "peanuts",
+				"inId": "0.2",
+				"info": {"n":"peanuts", "x":550, "x2": 300},
 				"sizes": [
 					{"size": "petit", "price": "10"},
 					{"size": "grand", "price": "15"}
@@ -53,6 +56,7 @@
 			},
 			{
 				"name": "Assortiment d'entrées",
+				"inId": "",
 				"descr": "Rouleux de printemps crevettes et légumes et raviolis crevettes et légumes",
 				"sizes": [
 					{"size": "petit", "price": "14"},

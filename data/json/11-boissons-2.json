@@ -4,33 +4,34 @@
 		{
 			"name": "Vin blanc",
 			"options": [
-				{"option": "Name of open wine (au verre)", "price": "5"},
-				{"option": "Name of bottle 1 (à la bouteille)", "price": "?"},
-				{"option": "Name of bottle 2 (à la bouteille)", "price": "?"}
+				{"option": "Vin de la maison (au verre)", "price": "4"},
+				{"option": "Domaine de la Grande Pallière - Côte de Provence", "price": "35"},
+				{"option": "Chablis 1er Cru Blanc", "price": "58"}
 			]
 		},
 		{
 			"name": "Vin rouge",
 			"options": [
-				{"option": "Name of open wine (au verre)", "price": "5"},
-				{"option": "Name of bottle 1 (à la bouteille)", "price": "?"},
-				{"option": "Name of bottle 2 (à la bouteille)", "price": "?"}
+				{"option": "Vin de la maison (au verre)", "price": "4"},
+				{"option": "Château Saintcrit - Bordeaux Supérieur", "price": "34"},
+				{"option": "Château de Ricaud Cadillac - Côtes de Bordeaux", "price": "58"}
 			]
 		},
 		{
 			"name": "Vin rosé",
 			"options": [
-				{"option": "Name of open wine (au verre)", "price": "5"},
-				{"option": "Name of bottle 1 (à la bouteille)", "price": "?"},
-				{"option": "Name of bottle 2 (à la bouteille)", "price": "?"}
+				{"option": "Vin de la maison (au verre)", "price": "4"},
+				{"option": "Domaine de la Grande Pallière - Côte de Provence", "price": "33"},
+				{"option": "Château Minuty prestige - Côte de Provence", "price": "58"}
 			]
 		},
 		{
 			"name": "Bières",
 			"options": [
-				{"option": "Singha", "price": "5"},
-				{"option": "Chang", "price": "5"},
-				{"option": "Other beer", "price": "5"}
+				{"option": "Singha 33 cl", "price": "5"},
+				{"option": "Carlsberg 33 cl", "price": "4"},
+				{"option": "Heineken", "price": "4"},
+				{"option": "Feldschlössen (sans alcool)", "price": "4"}
 			]
 		}
 	]

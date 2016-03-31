@@ -49,7 +49,16 @@ function onePlate(item, x, lastY, str, conf) {
 	str = str + '<text x="' + x + '" y="' + lastY + '" style="' + nameStyle + '">' + item.name + '</text>'
 
 	if(item.info !== undefined) {
-		str = str + icon(item.info, x-70, nameY-35, 0.3)
+		var x2 = 0
+		if(item.info.x2 !== undefined) { x2 = item.info.x2 }
+		if(item.info.n === 'peanuts') {
+			str = str + icon(item.info.n, x+220+x2, nameY-35, 0.3)
+		} else if(item.info.n === 'spicy') {
+			str = str + icon(item.info.n, x+220+x2, nameY-35, 0.3)
+		} else {
+			str = str + icon('peanuts', x+220, nameY-35, 0.3) + icon('spicy', x+270, nameY-35, 0.3)
+		}
+		
 	}
 
 	if(item.price !== undefined) {

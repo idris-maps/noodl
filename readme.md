@@ -18,6 +18,8 @@ $ cd svgs/pdf
 $ pdfunite 00.pdf 01.pdf 02.pdf 03.pdf 04.pdf 05.pdf 06.pdf 07.pdf 08.pdf 09.pdf 10.pdf 11.pdf 12.pdf 13.pdf noodl.pdf
 ```
 
+The PDF file: ```flyer/pdf/noodl.pdf```
+
 ### Generate take away menu
 
 ```
@@ -32,8 +34,18 @@ $ cd flyer/pdf
 $ pdfunite recto.pdf verso.pdf noodl-flyer.pdf
 ```
 
+The PDF file: ```flyer/pdf/noodl-flyer.pdf```
+
+### Generate website
+
+```
+$ npm run webdata
+$ npm run site
+```
+
 ## Dependencies
 
+* node
 * inkscape
 * pdfunite
 

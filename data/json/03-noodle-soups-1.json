@@ -1,9 +1,10 @@
 {
 	"type": "Nouilles en soupe",
-	"typeDescr": "(Nouilles de riz sans gluten)",
 	"items": [
 		{
 			"name": "Curry vert",
+			"inId": "2.0",
+			"info": {"n":"spicy", "x":-90},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},
@@ -15,6 +16,8 @@
 		},
 		{
 			"name": "Curry rouge",
+			"inId": "2.1",
+			"info": {"n":"spicy", "x":-45},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},
@@ -26,7 +29,8 @@
 		},
 		{
 			"name": "Curry jaune",
-			"info": "spicy",
+			"inId": "2.2",
+			"info": {"n":"peanuts + spicy", "x":-45},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "boeuf", "price": "25"},
@@ -35,6 +39,8 @@
 		},
 		{
 			"name": "Chang Maï",
+			"inId": "2.3",
+			"info": {"n":"spicy", "x":-55},
 			"descr": "spécialité du Nord de la Thaïlande",
 			"options": [
 				{"option": "poulet", "price": "21.50"},

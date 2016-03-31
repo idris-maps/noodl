@@ -1,11 +1,11 @@
 {
 	"type": "Nouilles",
-	"typeDescr": "(Nouilles de riz sans gluten)",
 	"items": [
 		{
 			"name": "Pad thaï",
+			"inId": "2.7",
 			"descr": "Nouilles à la poële",
-			"info": "peanuts",
+			"info": {"n":"peanuts", "x":-90},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},
@@ -16,8 +16,9 @@
 		},
 		{
 			"name": "Pattaya",
-			"descr": "Nouilles à la vapeur",
-			"info": "peanuts",
+			"inId": "2.8",
+			"descr": "Nouilles bouillies",
+			"info": {"n":"peanuts", "x":-90},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},

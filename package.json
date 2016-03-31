@@ -8,15 +8,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jsonfile": "^2.2.3"
+    "jsonfile": "^2.2.3",
+    "xmldom": "^0.1.22"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-				"data": "node data/put-together",
-				"svg": "node svgs/create-svg.js",
-				"pdf": "node svgs/to-pdf.js",
-				"fsvg": "node flyer/create-svg.js",
-				"fpdf": "node flyer/to-pdf.js"
+    "data": "node data/put-together",
+    "webdata": "node data/web-data",
+    "svg": "node svgs/create-svg.js",
+    "pdf": "node svgs/to-pdf.js",
+    "fsvg": "node flyer/create-svg.js",
+    "fpdf": "node flyer/to-pdf.js",
+    "isite": "watchify ingredients-site/main.js -o ingredients-site/public/script.js",
+				"site": "minify site/public/style.css | minify site/public/ingredients.js | node site/index.js"
   },
   "author": "",
   "license": "ISC"

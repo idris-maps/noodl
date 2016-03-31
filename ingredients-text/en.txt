@@ -1,0 +1,295 @@
+
+---Starters---
+
+	 ** Home made satay
+			-coriander
+			-lemongrass
+			-shallots
+			-garlic
+			-oil
+			-chili
+			-turmeric powder
+			-soy sauce
+			-oyster sauce
+			-bamboo
+			-cucumber
+			-onion
+
+	 ** Spring rolls
+			-bean sprouts
+			-noodles
+			-spring onion
+			-coriander
+			-carrot
+			-Thai pepper powder
+			-garlic
+			-oil
+			-soy sauce
+			-sugar
+
+	 ** Tofu with tamarind and peanuts
+			-tamarine
+			-chili
+			-peanuts
+			-onions
+			-sesame
+			-sugar
+			-salt
+
+	 ** Selection of starters
+
+---Salads---
+
+	 ** Mixed salad
+			-chili
+			-tamarine
+			-fish sauce
+			-salt
+			-garlic
+			-lemon
+			-peanuts
+			-onion
+			-lemongrass
+			-sugar
+			-fish sauce
+			-kaffir lime leaves
+
+	 ** Glass noodles salad
+			-glass noodles
+			-pork
+			-shrimps
+			-vegetables
+			-spicy lime dressing
+
+---Noodle soup---
+
+	 ** Green curry
+			-oil
+			-green curry paste
+			-coconut milk
+			-water
+			-bamboo shoot
+			-kaffir lime leaves
+			-chili
+			-fish sauce
+			-sugar
+			-basil
+
+	 ** Red curry
+			-coconut milk
+			-red curry paste
+			-fish sauce
+			-oil
+			-shiitake mushrooms
+			-ginger
+			-garlic
+			-water
+			-coriander
+
+	 ** Yellow curry
+			-coconut milk
+			-yellow curry paste
+			-water
+			-potatoes
+			-onion
+			-baby corn
+			-fish sauce
+			-sugar
+
+	 ** Chang Maï
+			-chili
+			-shallots
+			-garlic
+			-ginger
+			-coriander
+			-turmeric
+			-curry powder
+
+	 ** Tom yum
+			-water
+			-lemongrass
+			-galangal
+			-kaffir lime leaves
+			-chili
+			-garlic
+			-oyster mushrooms
+			-tomatoes
+			-onions
+			-sugar
+			-fish sauce
+			-lime juice
+			-coriander
+
+	 ** Tom kha
+			-vegetable stock
+			-lemongrass stalk
+			-button mushrooms
+			-carrot
+			-chili
+			-garlic
+			-tomatoes
+			-bell pepper
+			-broccoli
+			-coconut milk
+			-soy sauce
+			-coriander
+			-lime
+			-chili sauce
+
+	 ** Sukhothai
+			-white radish
+			-carrot
+			-garlic
+			-salt
+			-pepper
+			-sugar
+			-fish sauce
+
+---Noodles---
+
+	 ** Pad thaï
+			-rice noodles
+			-bean sprouts
+			-chives
+			-oil
+			-tamarind paste
+			-shallots
+			-turnip
+			-lime
+			-peanuts
+			-chili
+			-garlic
+			-fish sauce
+			-egg
+
+	 ** Pattaya
+			-rice noodles
+			-bean sprouts
+			-chives
+			-oil
+			-tamarind paste
+			-shallots
+			-turnip
+			-lime
+			-peanuts
+			-chili
+			-garlic
+			-fish sauce
+
+---Rice platters---
+
+	 ** Crunchy chicken
+			-egg
+			-salt
+			-pepper
+			-oil
+			-cornstarch
+			-flour
+			-ginger
+			-garlic
+			-chili
+			-onion
+			-rice wine
+			-water
+			-sesame oil
+			-soy sauce
+			-sugar
+			-vinegar
+			-zest of orange
+
+	 ** Tom yum
+			-water
+			-lemongrass
+			-galangal
+			-kaffir lime leaves
+			-chili
+			-garlic
+			-oyster mushrooms
+			-tomatoes
+			-onions
+			-sugar
+			-fish sauce
+			-lime juice
+			-coriander
+
+	 ** Tom kha
+			-vegetable stock
+			-lemongrass stalk
+			-button mushrooms
+			-carrot
+			-chili
+			-garlic
+			-tomatoes
+			-bell pepper
+			-broccoli
+			-coconut milk
+			-soy sauce
+			-coriander
+			-lime
+			-chili sauce
+
+	 ** Green curry
+			-oil
+			-green curry paste
+			-coconut milk
+			-water
+			-bamboo shoot
+			-kaffir lime leaves
+			-chili
+			-fish sauce
+			-sugar
+			-basil
+
+	 ** Red curry
+			-coconut milk
+			-red curry paste
+			-fish sauce
+			-oil
+			-shiitake mushrooms
+			-ginger
+			-garlic
+			-water
+			-coriander
+
+	 ** Rice portion
+
+---Desserts---
+
+	 ** Fresh mango and sticky rice
+			-rice
+			-mango
+			-sugar
+			-coconut milk
+			-salt
+
+	 ** Banana ravioli with honey
+			-banana
+			-wonton wrappers
+			-honey
+			-sugar
+
+	 ** Banana fritter with condensed milk
+
+	 ** Coconut ice cream fritter
+			-ice cream
+			-flour
+
+	 ** Ice cream
+
+---Drinks---
+
+	 ** Water
+
+	 ** Sodas
+
+	 ** Coffee
+
+	 ** Tea
+
+	 ** White wine
+
+	 ** Red wine
+
+	 ** Rosé wine
+
+	 ** Beer
