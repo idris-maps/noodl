@@ -2,7 +2,7 @@ var fs = require('fs')
 var html = require('./lib/html')
 var mainPage = require('./lib/main-page')
 var menuPage = require('./lib/menu')
-var c = 1
+//var c = 1
 fs.readFile('site/public/style.min.css', 'utf-8', function(err, style) {
 	if(err) { console.log(err) }
 	console.log(style)

@@ -3,11 +3,12 @@
 		"title": "Heures d'ouverture",
 		"days": "Du Lundi au Dimanche",
 		"lunch": "12:00 - 14:00",
-		"dinner": "18:30 - 22:00"
+		"dinner": "18:30 - 22:30"
 	},
 	"site": {
 		"fr": "Pour la liste complète des ingrédients, visitez notre site internet",
 		"en": "For a menu in English and a full list of ingredients, check our website",
-		"www": "noodl.ch" 
+		"enSimpl": "For a menu in English, check our website",
+		"www": "NOODL.ch" 
 	}
 }

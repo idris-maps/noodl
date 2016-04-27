@@ -4,32 +4,32 @@
 		{
 			"name": "Salade mêlée",
 			"inId": "1.0",
-			"descr": "Sauce aux herbes thaïs et aux arachides",
+			"descr": "Sauce aux herbes thaïes et aux arachides",
 				"info": {"n":"peanuts", "x":0},
 			"options": [
 				{
-					"option": "poulet - citronelle",
+					"option": "poulet",
 					"sizes": [
 						{"size": "petite", "price": "12.50"},
 						{"size": "grande", "price": "22"}
 					]
 				},
 				{
-					"option": "boeuf - citronelle",
+					"option": "boeuf",
 					"sizes": [
 						{"size": "petite", "price": "14.50"},
 						{"size": "grande", "price": "25"}
 					]
 				},
 				{
-					"option": "crevettes - citronelle",
+					"option": "crevettes",
 					"sizes": [
 						{"size": "petite", "price": "13.50"},
 						{"size": "grande", "price": "24"}
 					]
 				},
 				{
-					"option": "calamars - citronelle",
+					"option": "calamars",
 					"sizes": [
 						{"size": "petite", "price": "13.50"},
 						{"size": "grande", "price": "24"}

@@ -9,8 +9,8 @@
 					{ 
 						"option": "poulet", 
 						"sizes": [
-							{"size": "petit", "price": "12.50"},
-							{"size": "grand", "price": "23"}
+							{"size": "5 pièces", "price": "12.50"},
+							{"size": "10 pièces", "price": "23"}
 						]
 					},
 					{ 
@@ -37,30 +37,30 @@
 				]
 			},
 			{
-				"name": "Rouleaux de printemps",
-				"inId": "0.1",
-				"options": [
-					{"option": "poulet fait maison", "price": "13"},
-					{"option": "crevettes", "price": "13"},
-					{"option": "légumes", "price": "12.50"}
-				]
-			},
-			{
 				"name": "Tofu au tamarin et aux arachides",
 				"inId": "0.2",
 				"info": {"n":"peanuts", "x":550, "x2": 300},
 				"sizes": [
-					{"size": "petit", "price": "10"},
-					{"size": "grand", "price": "15"}
+					{"size": "4 pièces", "price": "10"},
+					{"size": "10 pièces", "price": "15"}
 				]
 			},
 			{
 				"name": "Assortiment d'entrées",
-				"inId": "",
-				"descr": "Rouleux de printemps crevettes et légumes et raviolis crevettes et légumes",
+				"inId": "0.3",
+				"descr": "Rouleaux de printemps crevettes et légumes et raviolis crevettes et légumes",
 				"sizes": [
-					{"size": "petit", "price": "14"},
-					{"size": "grand", "price": "26.50"}
+					{"size": "8 pièces", "price": "14", "margin": 2},
+					{"size": "16 pièces", "price": "26.50"}
+				]
+			},
+			{
+				"name": "Rouleaux de printemps",
+				"inId": "0.1",
+				"options": [
+					{"option": "poulet fait maison (4 pièces)", "price": "13"},
+					{"option": "crevettes (5 pièces)", "price": "13"},
+					{"option": "légumes (5 pièces)", "price": "12.50"}
 				]
 			}
 		]

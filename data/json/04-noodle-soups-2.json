@@ -27,7 +27,6 @@
 		{
 			"name": "Sukhothai",
 			"inId": "2.6",
-			"info": {"n":"spicy", "x":-50},
 			"descr": "Soupe claire aux herbes",
 			"options": [
 				{"option": "poulet", "price": "21.50"},

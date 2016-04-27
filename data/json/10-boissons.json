@@ -2,14 +2,14 @@
 	"type": "Boissons",
 	"items": [
 		{
-			"name": "Eaux",
+			"name": "Eau",
 			"options": [
 				{"option": "Gazeuse", "price": "4"},
 				{"option": "Plate", "price": "4"}
 			]
 		},
 		{
-			"name": "Sodas",
+			"name": "Soda",
 			"options": [
 				{"option": "Coca-cola", "price": "4"},
 				{"option": "Coca-cola zero", "price": "4"},
@@ -18,17 +18,23 @@
 			]
 		},
 		{
-			"name": "Cafés",
+			"name": "Apéritif",
 			"options": [
-				{"option": "Expresso", "price": "3.50"},
-				{"option": "Normal", "price": "3.50"}
+				{"option": "Aperol spritz", "price": "10.50"}
 			]
 		},
 		{
-			"name": "Thés",
+			"name": "Café",
 			"options": [
-				{"option": "Thé vert", "price": "3.50"},
-				{"option": "Thé jasmin", "price": "3.50"}
+				{"option": "Expresso", "price": "3.50"},
+				{"option": "Long", "price": "3.50"}
+			]
+		},
+		{
+			"name": "Thé",
+			"options": [
+				{"option": "Vert", "price": "3.50"},
+				{"option": "Jasmin", "price": "3.50"}
 			]
 		}
 	]

@@ -40,7 +40,7 @@
 		{
 			"name": "Chang Maï",
 			"inId": "2.3",
-			"info": {"n":"spicy", "x":-55},
+			"info": {"n":"extra spicy", "x":-55},
 			"descr": "spécialité du Nord de la Thaïlande",
 			"options": [
 				{"option": "poulet", "price": "21.50"},

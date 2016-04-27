@@ -28,8 +28,8 @@
 		{
 			"name": "Bières",
 			"options": [
-				{"option": "Singha 33 cl", "price": "5"},
-				{"option": "Carlsberg 33 cl", "price": "4"},
+				{"option": "Singha", "price": "5"},
+				{"option": "Carlsberg", "price": "4"},
 				{"option": "Heineken", "price": "4"},
 				{"option": "Feldschlössen (sans alcool)", "price": "4"}
 			]

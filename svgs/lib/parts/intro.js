@@ -1,29 +1,59 @@
 var bg = require('../bg')
 var write = require('../write-svg')
 var icon = require('../icon')
+var last = require('../../../data/last/last.json')
+var adr = require('../../../data/adr/adr.json')
 
 module.exports = function(conf, data) {
-	var inner = bg.odd(conf.w, conf.h) + intro(conf, data)
+	var inner = bg.odd(conf.w, conf.h) + intro(conf, data, last)
 	write(conf.w, conf.h, '01', inner)
 }
 
-function intro(conf, data) {
+function intro(conf, data, last) {
+	var s = lastStyle('open', conf) + 'text-anchor:middle'
+	var lastX = conf.w/2
+	var lastY = 750
+	var lastM = 50
+
 	var f = conf.font.intro
 	var spX = conf.w/2 - 300
 	var g = '<g id="text" '
 	+ 'style="font-family:' + f.fam + ';font-size:' + f.s + ';" '
 	+ 'transform="translate(0, 200)" >'
-		+ text(data.part1, conf.w/2, 250, f.s, f.c)
-		+ text(data.part2, conf.w/2, 670, f.s, f.c)
-		+ text(data.part3, conf.w/2, 970, f.s, f.c)
-		+ icon('spicy', spX-150, 1440, 0.5)
-		+ '<text x="' + spX + '" y="1500" fill="' + f.c + '" font-weight="bold">Plat épicé</text>'
-		+ icon('peanuts', spX-150, 1540, 0.5)
-		+ '<text x="' + spX + '" y="1600" fill="' + f.c + '" font-weight="bold">Plat contenant des arachides</text>'
+		+ text(data.part1, conf.w/2, 130, f.s, f.c)
+		+ text(data.part2, conf.w/2, 300, f.s, f.c)
+	//	+ text(data.part3, conf.w/2, 570, f.s, f.c)
+		+ text(data.part4, conf.w/2, 470, f.s, f.c)
+		+ lastTxt(last.open.title, lastX, lastY, s)
+		+ lastTxt(last.open.days, lastX, lastY + lastM, s)
+		+ lastTxt(last.open.lunch, lastX, lastY + 2*lastM, s)
+		+ lastTxt(last.open.dinner, lastX, lastY + 3*lastM, s)
+		+ lastTxt(last.site.enSimpl, lastX, lastY + 5.5*lastM, s)
+		+ lastTxt(last.site.www, lastX, lastY + 7.5*lastM, 'font-family:chivo;font-size:80px;fill:rgb(54,21,44);text-anchor:middle')
+		+ lastTxt(adr.street, lastX, lastY + 10*lastM, s)
+		+ lastTxt(adr.town, lastX, lastY + 11*lastM, s)
+		+ lastTxt(adr.tel, lastX, lastY + 13*lastM, s)
+		+ icon('spicy', spX-150, 1500, 0.4)
+		+ '<text x="' + spX + '" y="1540" fill="' + f.c + '" font-weight="bold">Plat épicé</text>'
+		+ icon('peanuts', spX-150, 1600, 0.4)
+		+ '<text x="' + spX + '" y="1640" fill="' + f.c + '" font-weight="bold">Plat contenant des arachides</text>'
 	+ '</g>'
 
 	return g
 }
+
+function lastStyle(x, conf) {
+	var s = 'font-family:' + conf.font[x].fam + ';'
+	+ 'font-size:' + conf.font[x].s + ';'
+	+ 'fill:' + conf.font[x].c + ';'
+	return s
+}
+
+function lastTxt(text, x, y, s, bold) {
+	if(bold) { s = s 	+ 'font-weight:bold;' }
+	return '<text x="' + x + '" y="' + y + '" style="' + s + '">' + text + '</text>'
+}
+
 
 function text(txt, x, y, s, c) {
 	var dy = y

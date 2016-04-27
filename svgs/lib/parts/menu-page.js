@@ -1,6 +1,6 @@
 var bg = require('../bg')
 var write = require('../write-svg')
-var alerg = require('../../../data/allerg/allerg.json')
+var adr = require('../../../data/adr/adr.json')
 var icon = require('../icon')
 var lineBreak = 1.5
 
@@ -11,6 +11,16 @@ module.exports = function(n, conf, data, even, marginTop) {
 			var inner = bg.even(conf.w, conf.h) + str
 		} else {
 			var inner = bg.odd(conf.w, conf.h) + str
+		}
+
+// adresse sur dernière page
+		if(n === 11) {
+			var adrStyle = "font-family:chivo;font-size:30px;text-anchor:middle;fill:rgb(54,21,44)"
+			var adrY = 2000
+			var adrM = 35
+   inner = inner + '<text x="1300" y="' + adrY + '" style="' + adrStyle + '">' + adr.street + '</text>'
+				+ '<text x="1300" y="' + (adrY + adrM) + '" style="' + adrStyle + '">' + adr.town + '</text>'
+				+ '<text x="1300" y="' + (adrY + adrM*2) + '" style="' + adrStyle + '">' + adr.tel + '</text>'
 		}
 
 		write(conf.w, conf.h, fileName, inner)
@@ -65,11 +75,13 @@ function onePlate(item, x, lastY, str, conf) {
 	if(item.info !== undefined) {
 
 		if(item.info.n === 'peanuts') {
-			str = str + icon('peanuts', x+400+item.info.x ,nameY-50, 0.4)
+			str = str + icon('peanuts', x+400+item.info.x ,nameY-50, 0.3)
 		} else if(item.info.n === 'spicy') {
-			str = str + icon(item.info.n, x+400+item.info.x, nameY-50, 0.4)
-		} else {
-			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.4) + icon('peanuts', x+470+item.info.x, nameY-50, 0.4)
+			str = str + icon(item.info.n, x+400+item.info.x, nameY-50, 0.3)
+		} else if(item.info.n === 'peanuts + spicy') {
+			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.3) + icon('peanuts', x+470+item.info.x, nameY-50, 0.3)
+		} else if(item.info.n === 'extra spicy') {
+			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.3) + icon('spicy', x+450+item.info.x, nameY-50, 0.3)
 		}
 	}
 
@@ -86,21 +98,43 @@ function onePlate(item, x, lastY, str, conf) {
 
 	if(item.sizes !== undefined) {
 		var priceStyle = style('price', conf)
-		var pXp = conf.w - x
-		var pXs = conf.w - x - x*0.5
-		var pTxt = ''
-		item.sizes.forEach(function(s) {
-			lastY = lastY + conf.font.price.s * lineBreak
-			str = str 
-				+ '<text x="' + pXp + '" y="' + lastY + '" style="' + priceStyle + '">' + s.price + '</text>'
-				+ '<text x="' + pXs + '" y="' + lastY + '" style="' + priceStyle + '">' + s.size + '</text>'
-		})
-		
+
+		var colX2 = pX
+		var colX1 = pX -200
+
+// Size NAME
+		lastY = lastY + conf.font.price.s * lineBreak
+		var size1name = item.sizes[0].size
+		var size2name = item.sizes[1].size
+		str = str 
+			+ '<text x="' + colX1 + '" y="' + lastY + '" style="' + priceStyle + '">' + size1name + '</text>'
+			+ '<text x="' + colX2 + '" y="' + lastY + '" style="' + priceStyle + '">' + size2name + '</text>'
+// Size PRICE
+		lastY = lastY + conf.font.price.s * lineBreak
+		var size1price = item.sizes[0].price
+		var size2price = item.sizes[1].price
+		str = str 
+			+ '<text x="' + colX1 + '" y="' + lastY + '" style="' + priceStyle + '">' + size1price + '</text>'
+			+ '<text x="' + colX2 + '" y="' + lastY + '" style="' + priceStyle + '">' + size2price + '</text>'
+
+
 	}
 
 	if(item.options !== undefined) {
 		var optionStyle = style('option', conf)
 		var priceStyle = style('price', conf)
+
+// Size NAMES
+		if(item.options[0].sizes !== undefined) {
+				lastY = lastY + conf.font.price.s * lineBreak
+				var colX2 = pX
+				var colX1 = pX -200
+				var size1name = item.options[0].sizes[0].size
+				var size2name = item.options[0].sizes[1].size
+				str = str 
+					+ '<text x="' + colX1 + '" y="' + lastY + '" style="' + priceStyle + '">' + size1name + '</text>'
+					+ '<text x="' + colX2 + '" y="' + lastY + '" style="' + priceStyle + '">' + size2name + '</text>'
+		}
 
 		item.options.forEach(function(opt) {
 			var pX = conf.w - x
@@ -114,33 +148,23 @@ function onePlate(item, x, lastY, str, conf) {
 			}
 
 
-
+// Size PRICES
 			if(opt.sizes !== undefined) {
-
-				var sizeName = ''
-				for(k=0;k<opt.sizes.length;k++) {
-					sizeName = sizeName + opt.sizes[k].size
-					if(k !== opt.sizes.length-1) { sizeName = sizeName + ' / ' }
-				}
-				console.log(opt, sizeName, nameY)
-				str = str + '<text x="' + pX + '" y="' + nameY + '" style="' + priceStyle + '">' + sizeName + '</text>'
-
-				var pTxt = ''
-				opt.sizes.forEach(function(s, i) {
-					pTxt = pTxt + s.price
-					if(i !== opt.sizes.length - 1) {
-						pTxt = pTxt + ' / '
-					}
-				})
-				var pX = conf.w - x
-				str = str + '<text x="' + pX + '" y="' + lastY + '" style="' + priceStyle + '">' + pTxt + '</text>'
+				var size1name = opt.sizes[0].price
+				var size2name = opt.sizes[1].price
+				str = str 
+					+ '<text x="' + colX1 + '" y="' + lastY + '" style="' + priceStyle + '">' + size1name + '</text>'
+					+ '<text x="' + colX2 + '" y="' + lastY + '" style="' + priceStyle + '">' + size2name + '</text>'
 			}
+
+
 		})
 	}
-
+/* INFO ALLERGIES
 	str = str 
 		+ '<text x="1300" y="2100" style="font-family:chivo;font-size:30px;text-anchor:middle;fill:rgb(54,21,44)">' + alerg.txt1 + '</text>'
 		+ '<text x="1300" y="2130" style="font-family:chivo;font-size:30px;text-anchor:middle;fill:rgb(54,21,44)">' + alerg.txt2 + '</text>'
+*/
 
 	return {
 		lastY: lastY,

@@ -3,11 +3,13 @@
 	"en": [
 		"banana",
 		"flour",
-		"condensed milk"
+		"condensed milk",
+		"oil"
 	],
 	"fr": [
 		"banane",
 		"farine",
-		"lait condensé"
+		"lait condensé",
+		"huile"
 	]
 }
