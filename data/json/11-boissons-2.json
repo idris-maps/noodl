@@ -2,6 +2,12 @@
 	"type": "Boissons",
 	"items": [
 		{
+			"name": "Apéritif",
+			"options": [
+				{"option": "Aperol spritz", "price": "10.50"}
+			]
+		},
+		{
 			"name": "Vin blanc",
 			"options": [
 				{"option": "Vin de la maison (au verre)", "price": "4"},

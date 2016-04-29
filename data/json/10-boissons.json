@@ -1,11 +1,12 @@
 {
-	"type": "Boissons",
+	"type": "Boissons sans alcool",
 	"items": [
 		{
 			"name": "Eau",
 			"options": [
 				{"option": "Gazeuse", "price": "4"},
-				{"option": "Plate", "price": "4"}
+				{"option": "Plate", "price": "4"},
+				{"option": "Sirop grenadine", "price": "2.50"}
 			]
 		},
 		{
@@ -13,14 +14,8 @@
 			"options": [
 				{"option": "Coca-cola", "price": "4"},
 				{"option": "Coca-cola zero", "price": "4"},
-				{"option": "Thé froid", "price": "4"},
-				{"option": "Jus de pomme", "price": "4"}
-			]
-		},
-		{
-			"name": "Apéritif",
-			"options": [
-				{"option": "Aperol spritz", "price": "10.50"}
+				{"option": "Thé froid", "price": "3.50"},
+				{"option": "Jus de pomme", "price": "3.50"}
 			]
 		},
 		{

@@ -24,8 +24,8 @@ module.exports = function(callback) {
 	body.c('p').a({'class': 'index-txt'}).d(adrTxt)
 
 	body.c('br')
-
-	body.c('img').a({'class':'map', src: map.uri})
+	var imgLink = body.c('a').a({href:'https://www.google.com/maps?q=loc:46.20312,6.15745'})
+	imgLink.c('img').a({'class':'map', src: map.uri})
 	body.c('br')
 	body.c('br')
 

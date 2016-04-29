@@ -31,6 +31,7 @@ function translate(menu, callback) {
 					s.size = t(s.size)
 				})
 			}
+			if(item.descr !== undefined) { item.descr = t(item.descr) }
 			if(item.options !== undefined) {
 				item.options.forEach(function(opt) {
 					opt.option = t(opt.option)

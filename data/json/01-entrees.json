@@ -9,8 +9,8 @@
 					{ 
 						"option": "poulet", 
 						"sizes": [
-							{"size": "5 pièces", "price": "12.50"},
-							{"size": "10 pièces", "price": "23"}
+							{"size": "5 pcs", "price": "12.50"},
+							{"size": "10 pcs", "price": "23"}
 						]
 					},
 					{ 
@@ -41,8 +41,8 @@
 				"inId": "0.2",
 				"info": {"n":"peanuts", "x":550, "x2": 300},
 				"sizes": [
-					{"size": "4 pièces", "price": "10"},
-					{"size": "10 pièces", "price": "15"}
+					{"size": "4 pcs", "price": "10"},
+					{"size": "10 pcs", "price": "15"}
 				]
 			},
 			{
@@ -50,17 +50,17 @@
 				"inId": "0.3",
 				"descr": "Rouleaux de printemps crevettes et légumes et raviolis crevettes et légumes",
 				"sizes": [
-					{"size": "8 pièces", "price": "14", "margin": 2},
-					{"size": "16 pièces", "price": "26.50"}
+					{"size": "8 pcs", "price": "14", "margin": 2},
+					{"size": "16 pcs", "price": "26.50"}
 				]
 			},
 			{
 				"name": "Rouleaux de printemps",
 				"inId": "0.1",
 				"options": [
-					{"option": "poulet fait maison (4 pièces)", "price": "13"},
-					{"option": "crevettes (5 pièces)", "price": "13"},
-					{"option": "légumes (5 pièces)", "price": "12.50"}
+					{"option": "poulet (4 pcs)", "price": "13"},
+					{"option": "crevettes (5 pcs)", "price": "13"},
+					{"option": "légumes (5 pcs)", "price": "12.50"}
 				]
 			}
 		]

@@ -16,11 +16,13 @@ module.exports = function(n, conf, data, even, marginTop) {
 // adresse sur dernière page
 		if(n === 11) {
 			var adrStyle = "font-family:chivo;font-size:30px;text-anchor:middle;fill:rgb(54,21,44)"
-			var adrY = 2000
+			var adrY = 2050
 			var adrM = 35
-   inner = inner + '<text x="1300" y="' + adrY + '" style="' + adrStyle + '">' + adr.street + '</text>'
-				+ '<text x="1300" y="' + (adrY + adrM) + '" style="' + adrStyle + '">' + adr.town + '</text>'
-				+ '<text x="1300" y="' + (adrY + adrM*2) + '" style="' + adrStyle + '">' + adr.tel + '</text>'
+   inner = inner 
+				+ '<text x="' + conf.w/2 + '" y="' + adrY + '" style="' + adrStyle + '">NOODL.ch</text>'
+				+ '<text x="' + conf.w/2 + '" y="' + (adrY + adrM) + '" style="' + adrStyle + '">' + adr.street + '</text>'
+				+ '<text x="' + conf.w/2 + '" y="' + (adrY + adrM*2) + '" style="' + adrStyle + '">' + adr.town + '</text>'
+				+ '<text x="' + conf.w/2 + '" y="' + (adrY + adrM*3) + '" style="' + adrStyle + '">' + adr.tel + '</text>'
 		}
 
 		write(conf.w, conf.h, fileName, inner)
@@ -79,7 +81,7 @@ function onePlate(item, x, lastY, str, conf) {
 		} else if(item.info.n === 'spicy') {
 			str = str + icon(item.info.n, x+400+item.info.x, nameY-50, 0.3)
 		} else if(item.info.n === 'peanuts + spicy') {
-			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.3) + icon('peanuts', x+470+item.info.x, nameY-50, 0.3)
+			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.3) + icon('peanuts', x+450+item.info.x, nameY-50, 0.3)
 		} else if(item.info.n === 'extra spicy') {
 			str = str + icon('spicy', x+400+item.info.x ,nameY-50, 0.3) + icon('spicy', x+450+item.info.x, nameY-50, 0.3)
 		}

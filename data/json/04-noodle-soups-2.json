@@ -4,7 +4,7 @@
 		{
 			"name": "Tom yum",
 			"inId": "2.4",
-			"info": {"n":"spicy", "x":-90},
+			"info": {"n":"spicy", "x":-130},
 			"descr": "Au lait de coco et à la citronelle",
 			"options": [
 				{"option": "poulet", "price": "21.50"},

@@ -33,10 +33,11 @@ function intro(conf, data, last) {
 		+ lastTxt(adr.street, lastX, lastY + 10*lastM, s)
 		+ lastTxt(adr.town, lastX, lastY + 11*lastM, s)
 		+ lastTxt(adr.tel, lastX, lastY + 13*lastM, s)
-		+ icon('spicy', spX-150, 1500, 0.4)
-		+ '<text x="' + spX + '" y="1540" fill="' + f.c + '" font-weight="bold">Plat épicé</text>'
-		+ icon('peanuts', spX-150, 1600, 0.4)
-		+ '<text x="' + spX + '" y="1640" fill="' + f.c + '" font-weight="bold">Plat contenant des arachides</text>'
+		+ text(data.part5, conf.w/2, lastY + 15*lastM, f.s, f.c)
+		+ icon('spicy', spX-150, 1650, 0.4)
+		+ '<text x="' + spX + '" y="1690" fill="' + f.c + '" font-weight="bold">Plat épicé</text>'
+		+ icon('peanuts', spX-150, 1750, 0.4)
+		+ '<text x="' + spX + '" y="1790" fill="' + f.c + '" font-weight="bold">Plat contenant des arachides</text>'
 	+ '</g>'
 
 	return g

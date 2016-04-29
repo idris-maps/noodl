@@ -17,7 +17,7 @@
 		{
 			"name": "Curry rouge",
 			"inId": "2.1",
-			"info": {"n":"spicy", "x":-45},
+			"info": {"n":"spicy", "x":-40},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},

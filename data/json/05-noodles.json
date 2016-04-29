@@ -5,7 +5,7 @@
 			"name": "Pad thaï",
 			"inId": "2.7",
 			"descr": "Nouilles à la poële",
-			"info": {"n":"peanuts", "x":-90},
+			"info": {"n":"peanuts", "x":-130},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},
@@ -18,7 +18,7 @@
 			"name": "Pattaya",
 			"inId": "2.8",
 			"descr": "Nouilles bouillies",
-			"info": {"n":"peanuts", "x":-90},
+			"info": {"n":"peanuts", "x":-130},
 			"options": [
 				{"option": "poulet", "price": "21.50"},
 				{"option": "porc", "price": "22"},
